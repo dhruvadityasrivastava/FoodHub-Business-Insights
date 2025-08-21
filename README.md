@@ -19,6 +19,21 @@ Data Cleaning & Preprocessing: Handled missing values (e.g., 'Not given' ratings
 
 Analysis & Visualization: Conducted statistical analysis and created visualizations using Matplotlib and Seaborn to explore relationships within the data.
 
+
+## some of the results 
+
+!(results/myplot.png)
+American and Japanese cuisines dominate the order volume; however, Indian and Mediterranean cuisines receive consistently higher average ratings.
+
+
+
+
+
+
+
+
+
+
 Tools: 
 
 Python
