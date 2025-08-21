@@ -22,16 +22,9 @@ Analysis & Visualization: Conducted statistical analysis and created visualizati
 
 ## some of the results 
 
-!(results/myplot.png)
+![My Plot](results/myplot.png) 
+
 American and Japanese cuisines dominate the order volume; however, Indian and Mediterranean cuisines receive consistently higher average ratings.
-
-
-
-
-
-
-
-
 
 
 Tools: 
