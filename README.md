@@ -20,11 +20,29 @@ Data Cleaning & Preprocessing: Handled missing values (e.g., 'Not given' ratings
 Analysis & Visualization: Conducted statistical analysis and created visualizations using Matplotlib and Seaborn to explore relationships within the data.
 
 
-## some of the results 
+## Results and Conclusions
 
-![My Plot](results/myplot.png) 
+### Customer Behavior
+*   **Order Distribution:** Over 71% of orders are placed on weekends, indicating a significant concentration of activity during that time.
+*   **Customer Loyalty:** A large portion of customers are first-time users, with only 232 out of 1200 customers placing more than one order. This suggests an opportunity to improve customer retention.
 
-American and Japanese cuisines dominate the order volume; however, Indian and Mediterranean cuisines receive consistently higher average ratings.
+### Restaurant & Cuisine Insights
+*   **Top Cuisines:** American, Japanese, and Italian cuisines are the most popular by order volume.
+*   **Top Restaurants:** 'Shake Shack', 'The Meatball Shop', and 'Blue Ribbon Sushi' are the top-performing restaurants in terms of order count.
+*   **Cuisine Ratings:** While American and Japanese cuisines dominate in volume, Indian and Mediterranean cuisines consistently receive higher average ratings.
+
+### Operational Insights
+*   **Delivery & Preparation Times:** There is a slight positive correlation between order cost and food preparation time. Delivery times are notably longer on weekdays compared to weekends.
+*   **Rating & Delivery Time:** Faster delivery times show a slight correlation with higher customer ratings, suggesting that efficient delivery is a key factor in customer satisfaction.
+
+![Cuisine Popularity](results/cuisine_popularity.png)
+*A countplot showing the distribution of orders across different cuisine types.*
+
+![Order Day Distribution](results/order_day_distribution.png)
+*A countplot showing the distribution of orders on weekdays vs. weekends.*
+
+![Correlation Heatmap](results/correlation_heatmap.png)
+*A heatmap showing the correlation between the numerical features in the dataset.*
 
 
 Tools: 
@@ -38,4 +56,9 @@ Matplotlib
 Univariate analysis
 Bivariate analysis
 Exploratory Data Analysis
-Business Recommendations
+
+## Business Recommendations
+*   **Enhance Weekday Engagement:** To balance the heavy weekend order volume, consider launching targeted promotions, discounts, or special menu items for weekdays.
+*   **Leverage High-Rated Cuisines:** Investigate the factors contributing to the high ratings of Indian and Mediterranean cuisines (e.g., food quality, preparation techniques) and apply these insights to improve other offerings.
+*   **Boost Customer Retention:** Implement a loyalty program or offer incentives for second-time orders to encourage repeat business, addressing the high number of single-order customers.
+*   **Optimize Delivery Efficiency:** Since faster deliveries correlate with higher ratings, focus on optimizing weekday delivery logistics to reduce wait times and improve customer satisfaction.
