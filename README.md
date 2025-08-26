@@ -35,7 +35,14 @@ Analysis & Visualization: Conducted statistical analysis and created visualizati
 *   **Delivery & Preparation Times:** There is a slight positive correlation between order cost and food preparation time. Delivery times are notably longer on weekdays compared to weekends.
 *   **Rating & Delivery Time:** Faster delivery times show a slight correlation with higher customer ratings, suggesting that efficient delivery is a key factor in customer satisfaction.
 
-![My Plot](results/myplot.png)
+![Cuisine Popularity](results/cuisine_popularity.png)
+*A countplot showing the distribution of orders across different cuisine types.*
+
+![Order Day Distribution](results/order_day_distribution.png)
+*A countplot showing the distribution of orders on weekdays vs. weekends.*
+
+![Correlation Heatmap](results/correlation_heatmap.png)
+*A heatmap showing the correlation between the numerical features in the dataset.*
 
 
 Tools: 
