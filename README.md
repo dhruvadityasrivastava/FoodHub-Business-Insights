@@ -1,4 +1,11 @@
 # FoodHub-Business-Insights
+This project was completed as part of the **Post Graduate Program in Artificial Intelligence and Machine Learning: Business Applications** offered by **The University of Texas at Austin**.  
+
+For official program details, please visit:  
+[My Great Learning e-Portfolio](https://eportfolio.mygreatlearning.com/dhruv-aditya-srivastava)
+
+## Project Information  
+
 An exploratory data analysis of food delivery orders to uncover insights into customer behavior and restaurant performance
 FoodHub Business Insights: An Exploratory Data Analysis
 Project Overview
@@ -36,29 +43,26 @@ Analysis & Visualization: Conducted statistical analysis and created visualizati
 *   **Rating & Delivery Time:** Faster delivery times show a slight correlation with higher customer ratings, suggesting that efficient delivery is a key factor in customer satisfaction.
 
 ![Cuisine Popularity](results/cuisine_popularity.png)
+
 *A countplot showing the distribution of orders across different cuisine types.*
 
 ![Order Day Distribution](results/order_day_distribution.png)
+
 *A countplot showing the distribution of orders on weekdays vs. weekends.*
 
 ![Correlation Heatmap](results/correlation_heatmap.png)
+
 *A heatmap showing the correlation between the numerical features in the dataset.*
 
 
-Tools: 
 
-Python
-Jupyter Notebook
-Numpy
-Pandas
-Seaborn
-Matplotlib
-Univariate analysis
-Bivariate analysis
-Exploratory Data Analysis
 
 ## Business Recommendations
 *   **Enhance Weekday Engagement:** To balance the heavy weekend order volume, consider launching targeted promotions, discounts, or special menu items for weekdays.
 *   **Leverage High-Rated Cuisines:** Investigate the factors contributing to the high ratings of Indian and Mediterranean cuisines (e.g., food quality, preparation techniques) and apply these insights to improve other offerings.
 *   **Boost Customer Retention:** Implement a loyalty program or offer incentives for second-time orders to encourage repeat business, addressing the high number of single-order customers.
 *   **Optimize Delivery Efficiency:** Since faster deliveries correlate with higher ratings, focus on optimizing weekday delivery logistics to reduce wait times and improve customer satisfaction.
+
+Tools: 
+
+Python;    Jupyter Notebook;    Numpy;    Pandas;    Seaborn;    Matplotlib;    Univariate analysis;    Bivariate analysis;    Exploratory Data Analysis    
